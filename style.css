@@ -6,4 +6,13 @@
 
 body {
     background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__wrapper {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
 }
