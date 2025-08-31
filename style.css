@@ -14,7 +14,7 @@ body {
 
 .card__wrapper {
     background-color: hsl(0, 0%, 100%);
-    text-align: center;
+    text-align: left;
     padding: 1.5rem;
     border: 2px solid black;
     width: 27rem;
@@ -25,6 +25,13 @@ body {
 
 svg {
     width: 100%;
-    object-fit: contain;
     border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+a {
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.5rem 1rem; 
+    text-decoration: none;
 }
