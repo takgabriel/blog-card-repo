@@ -14,9 +14,18 @@ body {
 
 .card__wrapper {
     background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1.5rem;
     border: 2px solid black;
     width: 27rem;
     height: 35rem;
     border-radius: 1.5rem;
     box-shadow: 9px 9px 0 rgba(0,0,0,1);
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 1rem;
 }
