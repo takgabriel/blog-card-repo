@@ -15,4 +15,6 @@ body {
 .card__wrapper {
     background-color: hsl(0, 0%, 100%);
     border: 1px solid black;
+    width: 27rem;
+    height: 35rem;
 }
