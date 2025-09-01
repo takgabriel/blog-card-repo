@@ -20,7 +20,7 @@ body {
     padding: 1.5rem;
     border: 2px solid black;
     width: 27rem;
-    height: 38rem;
+    height: 37rem;
     border-radius: 1.5rem;
     box-shadow: 9px 9px 0 rgba(0,0,0,1);
 }
@@ -45,4 +45,30 @@ a {
 
 .card__wrapper-date {
     margin-top: 0.5rem;
+}
+
+h2 {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.card__wrapper--text {
+    color: hsl(0, 0%, 42%);
+    font-size: 1.2rem;
+}
+
+.card__author {
+    display: flex;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.card__author--img {
+    width: 11%;
+}
+
+.card__author--name {
+    font-weight: 900;
+    padding: 1rem;
 }
